@@ -6,7 +6,6 @@ Ele toca faixas 8‑bit/lo‑fi e mostra sprites de Pokémon (Mimikyu, Phantump,
 ## Tecnologias
 
 - HTML, CSS e JavaScript (vanilla)
-- Áudio HTML5 (`<audio>`)
 - Sprites dos Pokémon via PokéAPI (URLs de sprites estáticos) [web:16][web:19]
 
 ## Como rodar
