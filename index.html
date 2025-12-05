@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokemonfy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <h1>Pokemonfy</h1>
+            <p>Seu Spotify</p>
+        </header>
+
+        <main class="player">
+            <div class="pokemon-info">
+                <img id="pokemon-img"
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/778.png" alt="Pokemon">
+                <h2 id="track-title">Mimikyu Theme</h2>
+                <p id="track-subtitle">Type: Ghost/Fairy</p>
+            </div>
+
+            <div class="controls">
+                <input type="range" id="progress" value="0" min="0" max="100">
+                <div class="time">
+                    <span id="current-time">0:00</span>
+                    <span id="duration">0:00</span>
+                </div>
+
+                <div class="buttons">
+                    <button id="prev">⏮</button>
+                    <button id="play">▶</button>
+                    <button id="next">⏭</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <audio id="audio"></audio>
+
+    <script scr="script.js"></script>
+</body>
+</html>
